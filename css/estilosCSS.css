@@ -1,0 +1,49 @@
+/* CABECERA */
+.botonera {
+  justify-content: space-around; }
+
+/* CUERPO */
+.cuerpo {
+  background-color: aquamarine;
+  padding: 10px;
+  margin-bottom: 10px; }
+
+/* PIE */
+.pie {
+  background-color: darkcyan;
+  padding: 10px; }
+
+.botonera a {
+  display: inline-block;
+  font-size: 14px;
+  transition: all 1s; }
+
+.botonera a:hover {
+  font-size: 20px;
+  color: #00af75; }
+
+.cuerpo aside ul li:hover {
+  transform: translateX(15px);
+  transition: all 1s; }
+
+.cuerpo main img {
+  animation-name: freud;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-delay: 0s; }
+
+@keyframes freud {
+  0% {
+    opacity: 1; }
+  20% {
+    margin-left: 40px; }
+  40% {
+    margin-left: 80px; }
+  60% {
+    margin-left: 120px; }
+  80% {
+    margin-left: 160px; }
+  100% {
+    opacity: 0;
+    margin-left: 200px; } }

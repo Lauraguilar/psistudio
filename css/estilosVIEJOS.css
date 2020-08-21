@@ -1,0 +1,16 @@
+/* CABECERA */
+#botonera {
+    justify-content: space-around;
+}
+
+/* CUERPO */
+.cuerpo {
+    background-color: aquamarine;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+/* PIE */
+footer {
+    background-color: darkcyan;
+    padding: 10px;
+}
